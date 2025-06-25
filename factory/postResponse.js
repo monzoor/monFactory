@@ -2,15 +2,15 @@ import { monFactory } from '../monFactory.js';
 
 monFactory.create(
   {
-    _key: "badRequest",
+    _key: "postResponse",
     _dataKey: "data",
     noId: true,
   },
   () => ({
-    statusCode: 400,
-    message: "Pengesahan gagal",
-    error: {
-      "kata laluan": "diperlukan"
+    // statusCode: 201,
+    message: "Pengalaman kerja berjaya dicipta",
+    data: {
+      id: 4
     }
   })
 ); 

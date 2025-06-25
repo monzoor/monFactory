@@ -8,19 +8,19 @@ monFactory.create(
     _repeat: 100,
   },
   () => ({
-    name: faker.person.fullName(),
-    email: faker.internet.email(),
-    address: faker.location.streetAddress(),
-    jobs: createAndMapArray(5, () => ({
-      title: faker.person.jobTitle(),
+    nama: faker.person.fullName(),
+    emel: faker.internet.email(),
+    alamat: faker.location.streetAddress(),
+    pekerjaan: createAndMapArray(5, () => ({
+      jawatan: faker.person.jobTitle(),
       id: faker.number.int(),
-      company: {
-        name: faker.company.name(),
-        address: {
-          street: faker.location.streetAddress(),
-          city: faker.location.city(),
-          state: faker.location.state(),
-          zipCode: faker.location.zipCode(),
+      syarikat: {
+        nama: faker.company.name(),
+        alamat: {
+          jalan: faker.location.streetAddress(),
+          bandar: faker.location.city(),
+          negeri: faker.location.state(),
+          poskod: faker.location.zipCode(),
         },
       },
     })),
