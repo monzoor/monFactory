@@ -1,0 +1,6 @@
+{
+  "/api/v1/companyItems": "/companyItems",
+  "/api/v1/companyItems/:id": "/companyItems/:id",
+  "/api/v1/user": "/user",
+  "/api/v1/user/:id": "/user/:id"
+}

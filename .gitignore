@@ -1,0 +1,5 @@
+# Node dependencies
+node_modules
+db
+db.json
+.DS_Store
